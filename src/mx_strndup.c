@@ -24,7 +24,7 @@ char *mx_strndup(const char *s1, size_t n) {
    	}
    	else {
    		dup = mx_strnew(length);
-		for(size_t i = 0;i < n;i++) {
+		for(size_t i = 0;i < length;i++) {
 			dup[i] = s1[i];
 		}
    	}
